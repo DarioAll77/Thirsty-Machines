@@ -23,3 +23,15 @@ Right now, choosing where to build an AI data center mostly comes down to buying
 This tool is meant for government bodies that handle land concessions and permits for new infrastructure. Instead of approving a location because a company already picked it, a government agency could use this to check a proposed site against water availability, distance from populated areas, energy source, and estimated CO2 impact before granting the land.
 
 It would be used early, during the planning and permitting stage — before construction starts, not after. The main users are the people inside government departments responsible for infrastructure approval, environmental impact assessment, and land use planning. They'd need the tool to give a clear, comparable score or flag for each candidate site, not just raw data, since decisions often need to be made and justified quickly.
+
+## Data sources and AI methods
+
+The project would rely on public datasets that already exist, rather than collecting new data:
+
+* [WRI Aqueduct Water Risk Atlas](https://www.wri.org/aqueduct) — water stress and availability by region
+* [WorldPop](https://www.worldpop.org/) — population density, to check distance from populated areas
+* [Global Solar Atlas](https://globalsolaratlas.info/) and [Global Wind Atlas](https://globalwindatlas.info/) — renewable energy potential by location
+* [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net/) — protected areas to exclude from consideration
+* National/regional grid carbon intensity data — to estimate the CO2 impact of powering a site
+
+On the AI/methods side, this is mainly a multi-criteria decision problem: each candidate location gets scored across the factors above (water, distance from people, energy potential, CO2 impact, protected status), with weights reflecting how important each factor is. Locations can then be ranked or filtered out if they fail a hard constraint (e.g. inside a protected area). A simple optimization or clustering approach could help group similar candidate sites and highlight the best trade-offs, rather than pretending there's one perfect answer.
