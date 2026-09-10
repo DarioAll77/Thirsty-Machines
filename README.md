@@ -15,3 +15,11 @@ Some of the problems this project looks at:
 * Desert locations with strong solar potential usually lack water for cooling
 * Desalinating seawater solves the water problem but adds significant CO2 emissions
 * There's no simple, publicly available way to compare candidate locations across all these factors at once
+
+## How is it used?
+
+Right now, choosing where to build an AI data center mostly comes down to buying land and starting construction — there isn't a standard way to check the full picture first.
+
+This tool is meant for government bodies that handle land concessions and permits for new infrastructure. Instead of approving a location because a company already picked it, a government agency could use this to check a proposed site against water availability, distance from populated areas, energy source, and estimated CO2 impact before granting the land.
+
+It would be used early, during the planning and permitting stage — before construction starts, not after. The main users are the people inside government departments responsible for infrastructure approval, environmental impact assessment, and land use planning. They'd need the tool to give a clear, comparable score or flag for each candidate site, not just raw data, since decisions often need to be made and justified quickly.
