@@ -35,3 +35,14 @@ The project would rely on public datasets that already exist, rather than collec
 * National/regional grid carbon intensity data — to estimate the CO2 impact of powering a site
 
 On the AI/methods side, this is mainly a multi-criteria decision problem: each candidate location gets scored across the factors above (water, distance from people, energy potential, CO2 impact, protected status), with weights reflecting how important each factor is. Locations can then be ranked or filtered out if they fail a hard constraint (e.g. inside a protected area). A simple optimization or clustering approach could help group similar candidate sites and highlight the best trade-offs, rather than pretending there's one perfect answer.
+
+## Challenges
+
+This doesn't solve everything, and it's better to say that clearly now.
+
+* It doesn't know anything about politics, local economics, land disputes, or whether a government will actually stick to the criteria once the land is granted
+* The main trade-off — water vs. clean energy vs. CO2 from things like desalination — is still there no matter what. The tool can lay it out clearly, but someone still has to pick what matters most. It doesn't do that for you
+* Public datasets have gaps. Water stress numbers and population data can be old or too rough for one specific site, especially in places that aren't well monitored
+* It only looks at distance from people, not things like water rights or how a new site would actually affect a community long-term — that needs its own, deeper study
+* Someone could use a tool like this to justify a decision they'd already made, instead of actually using it to decide. The scoring needs to stay visible and honest, or that's exactly what happens
+* 
