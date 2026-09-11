@@ -45,7 +45,7 @@ This doesn't solve everything, and it's better to say that clearly now.
 * Public datasets have gaps. Water stress numbers and population data can be old or too rough for one specific site, especially in places that aren't well monitored
 * It only looks at distance from people, not things like water rights or how a new site would actually affect a community long-term — that needs its own, deeper study
 * Someone could use a tool like this to justify a decision they'd already made, instead of actually using it to decide. The scoring needs to stay visible and honest, or that's exactly what happens
-* 
+
 
 ## What next?
 
