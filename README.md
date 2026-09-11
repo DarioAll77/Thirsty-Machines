@@ -56,3 +56,10 @@ Beyond that, this project only really works if it's not just one government or o
 There's also a social side worth building in eventually: job security for the people working at these sites so they're not later replaced by the same AI they helped build, and a requirement that some percentage of project profits go toward fixing environmental damage elsewhere — desertification, for example, not just avoiding new damage where the site is built.
 
 None of that is realistic to build alone. It would need input from people who actually work in environmental policy, energy and international regulation — this project is a starting point for the conversation, not the final answer.
+
+
+## Acknowledgments
+
+* This project idea and structure follows the Building AI course final project template, created by Reaktor Innovations and University of Helsinki
+* Thanks to the teams behind the public datasets this project would rely on: [WRI Aqueduct](https://www.wri.org/aqueduct), [WorldPop](https://www.worldpop.org/), [Global Solar Atlas](https://globalsolaratlas.info/), [Global Wind Atlas](https://globalwindatlas.info/), and the [World Database on Protected Areas](https://www.protectedplanet.net/)
+* The idea itself came out of following this course and reading more broadly about the environmental footprint of AI infrastructure
