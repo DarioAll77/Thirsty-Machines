@@ -46,3 +46,13 @@ This doesn't solve everything, and it's better to say that clearly now.
 * It only looks at distance from people, not things like water rights or how a new site would actually affect a community long-term — that needs its own, deeper study
 * Someone could use a tool like this to justify a decision they'd already made, instead of actually using it to decide. The scoring needs to stay visible and honest, or that's exactly what happens
 * 
+
+## What next?
+
+The next real step would be turning this from an idea into a working prototype — a script that scores a handful of real candidate locations using the public datasets listed above, so the trade-offs become visible instead of theoretical.
+
+Beyond that, this project only really works if it's not just one government or one company checking a site on its own. AI's water and energy footprint is a global issue, so ideally there would be some kind of international body — hard as that is to get agreement on — looking at the environmental, geopolitical and social side of AI infrastructure together. That could eventually cover things well beyond site selection: costs and land concessions, construction and maintenance oversight, required certifications for companies building these sites, risk assessment, and independent third-party checks over time, not just at the approval stage.
+
+There's also a social side worth building in eventually: job security for the people working at these sites so they're not later replaced by the same AI they helped build, and a requirement that some percentage of project profits go toward fixing environmental damage elsewhere — desertification, for example, not just avoiding new damage where the site is built.
+
+None of that is realistic to build alone. It would need input from people who actually work in environmental policy, energy and international regulation — this project is a starting point for the conversation, not the final answer.
